@@ -1,0 +1,27 @@
+@import "../../sass/variables.scss";
+
+.item {
+  width: 100%;
+}
+
+.field {
+  width: 100%;
+  border: 1px solid $grey-200;
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+  outline: none;
+  resize: none;
+
+  &:disabled {
+    background-color: transparent;
+    color: lighten($color: #000, $amount: 70);
+  }
+}
+
+.field-error {
+  border-color: $error;
+}
+
+.error {
+  color: $error;
+}

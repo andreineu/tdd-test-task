@@ -1,0 +1,25 @@
+@import "../../sass//variables.scss";
+
+.card {
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  background: $grey-300;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.field {
+  color: $text-secondary;
+}
+
+.link {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  a {
+    color: $text-link;
+    text-decoration: none;
+  }
+}

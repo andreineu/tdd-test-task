@@ -1,0 +1,17 @@
+@import "../../sass/variables.scss";
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: $base-gap;
+  border: 1px solid;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-color: $grey-300;
+}
+
+.submit {
+  width: 85px;
+  margin-top: 10px;
+  margin-left: auto;
+}

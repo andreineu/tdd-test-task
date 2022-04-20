@@ -1,0 +1,36 @@
+@import "../../sass/variables.scss";
+
+.container {
+  width: 100%;
+  display: inline-block;
+
+  padding: $base-padding;
+  margin: 0 auto 0 $sidebar-width;
+  transition: width 0.1s;
+}
+
+@media (min-width: $xs) {
+  .container {
+    width: $xs;
+  }
+}
+@media (min-width: $sm) {
+  .container {
+    width: ($sm - $sidebar-width);
+  }
+}
+@media (min-width: $md) {
+  .container {
+    width: ($md - $sidebar-width);
+  }
+}
+@media (min-width: $lg) {
+  .container {
+    width: ($lg - $sidebar-width);
+  }
+}
+@media (min-width: $xl) {
+  .container {
+    width: ($xl - $sidebar-width);
+  }
+}

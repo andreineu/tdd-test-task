@@ -1,0 +1,18 @@
+@import "../../sass/variables.scss";
+
+.sidebar {
+  width: 152px;
+  position: fixed;
+  background-color: $grey-400;
+  padding: 20px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+// @media (min-width: $sm) {
+// TODO: burger menu?
+// .container {
+//   width: ($sm - $sidebar-width);
+// }
+// }
