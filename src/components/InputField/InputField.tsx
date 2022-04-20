@@ -1,11 +1,4 @@
-import {
-  ErrorMessage,
-  Field,
-  FieldHookConfig,
-  FormikErrors,
-  FormikTouched,
-  useField
-} from "formik";
+import { FieldHookConfig, useField } from "formik";
 
 import styles from "./InputField.module.scss";
 

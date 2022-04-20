@@ -1,9 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { UserForm } from "../../components/Forms/UserForm";
 import { mockUser } from "../mocks";
-import userEvent from "@testing-library/user-event";
-import { customRender } from "../utils";
-import { act } from "react-dom/test-utils";
 
 describe("user form", () => {
   it("should have disabled fields if disabled prop is passed", async () => {
